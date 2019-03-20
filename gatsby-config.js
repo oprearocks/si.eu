@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `șî.eu`,
+    description: `#șîeu — România vrea autostrăzi`,
+    author: `@oprearocks`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `șî.eu`,
+        short_name: `șî.eu`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
@@ -24,6 +24,14 @@ module.exports = {
       options: {
         tailwind: true,
         purgeOnly: ['src/css/style.css'],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-32468134-11",
+        // Setting this parameter is optional
+        anonymize: true,
       },
     },
   ],

@@ -7,7 +7,7 @@ import abductionIllustration from "../images/abduction-illustration.svg";
 function NotFoundPage() {
   return (
     <Layout>
-      <SEO title="404: Not found" />
+      <SEO title="404: S-a furat pagina." />
       <div>
         <img
           src={abductionIllustration}
@@ -15,7 +15,7 @@ function NotFoundPage() {
           alt="Ghost getting abducted by aliens"
         />
         <h2 className="bg-yellow inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
+          Se pare că pagina pe care o cauți a fost furată sau răpită de extratereștri...
       </h2>
       </div>
     </Layout>

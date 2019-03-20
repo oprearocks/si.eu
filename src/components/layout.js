@@ -24,25 +24,23 @@ function Layout({ children }) {
             {children}
           </div>
 
-          <footer className="bg-blue">
+          <footer className="bg-blue-dark">
             <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
               <p className="text-white">
-                Created by{" "}
+                Creat cu responsabilitate și emoji, în scop apolitic, de către {" "}
                 <a
-                  href="https://taylorbryant.blog"
+                  href="https://oprea.rocks"
                   className="font-bold no-underline text-white"
                 >
-                  Taylor Bryant
+                  Adrian Oprea
               </a>
               </p>
 
               <p>
                 <a
-                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+                  href="https://github.com/oprearocks/si.eu"
                   className="font-bold no-underline text-white"
-                >
-                  GitHub
-              </a>
+                >Cod sursă (GitHub)</a>
               </p>
             </div>
           </footer>

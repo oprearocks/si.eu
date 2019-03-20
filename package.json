@@ -2,9 +2,10 @@
   "name": "gatsby-starter-tailwind",
   "description": "Gatsby starter styled with Tailwind",
   "version": "2.1.1",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Adrian Oprea <adrian@oprea.rocks>",
   "dependencies": {
     "gatsby": "^2.2.2",
+    "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-postcss": "^2.0.7",
     "gatsby-plugin-purgecss": "^3.1.1",
@@ -36,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
+    "url": "https://github.com/oprearocks/si.eu"
   },
   "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/oprearocks/si.eu/issues"
   }
 }
