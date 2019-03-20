@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-starter-tailwind",
+  "description": "Gatsby starter styled with Tailwind",
+  "version": "2.1.1",
+  "author": "Taylor Bryant <taylor@bryant.io>",
+  "dependencies": {
+    "gatsby": "^2.2.2",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-purgecss": "^3.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "graphql": "^14.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "tailwindcss": "^0.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
+  },
+  "bugs": {
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+  }
+}
